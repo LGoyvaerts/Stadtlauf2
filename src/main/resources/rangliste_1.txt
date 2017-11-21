@@ -1,0 +1,56 @@
+Kategorie 1 Rangliste
+
+
+Rang	SN		Zeit		Name
+----------------------------------------
+1		23		14:30:36	Temperli
+2		14		14:31:29	Arnold
+3		15		14:32:14	Fehr
+4		27		14:32:54	Spreng
+5		1		14:32:59	Bruppacher 1
+6		12		14:33:04	Bucher
+7		28		14:33:12	Bosshardt
+8		24		14:33:18	Stoll
+9		26		14:34:38	Arnold
+10		2		14:34:59	Bruppacher 2
+11		5		14:35:48	Haas
+12		6		14:36:41	Vogt
+13		8		14:36:51	Pfammatter
+14		21		14:37:00	Feusi 1
+15		81		14:37:28	Wölfle 1
+16		7		14:38:01	Achermann
+17		69		14:38:21	Engler
+18		4		14:38:36	Lutz 2
+19		13		14:38:39	Amstein
+20		62		14:38:49	Le
+21		29		14:38:52	Merotto
+22		87		14:39:19	Rütschi
+23		51		14:39:22	Zehntner
+24		84		14:39:27	Zehnder
+25		86		14:39:53	Mattli
+26		90		14:40:02	Bernhard
+27		65		14:40:09	Donze
+28		71		14:40:16	Murer
+29		3		14:40:29	Lutz 1
+30		58		14:40:34	Meier
+31		92		14:41:10	Kober
+32		93		14:41:20	Iten 1
+33		64		14:41:22	Stauber
+34		85		14:41:25	Bolz
+35		22		14:42:22	Feusi 2
+36		70		14:42:41	Bamberger
+37		94		14:44:03	Iten 2
+38		63		14:44:07	Liebi
+39		91		14:44:47	Oberholzer
+40		61		14:44:54	Ammann
+41		53		14:44:59	Frei
+42		57		14:45:19	Bagattini
+43		55		14:45:36	Doebeli
+44		52		14:45:42	Bloch
+45		88		14:45:48	Strausak
+46		56		14:46:03	Stauber
+47		54		14:47:44	Lauener
+48		66		14:51:11	Boller
+49		83		14:51:52	Leuch
+50		82		DNF			Wölfle 2
+51		11		DNF			Gähwiler
