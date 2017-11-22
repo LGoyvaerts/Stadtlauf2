@@ -52,5 +52,8 @@ Rang	SN		Zeit		Name
 47		54		14:47:44	Lauener
 48		66		14:51:11	Boller
 49		83		14:51:52	Leuch
-50		82		DNF			Wölfle 2
-51		11		DNF			Gähwiler
+50		82		DNF*		Wölfle 2
+51		11		DNF*		Gähwiler
+
+
+*DNF: Nicht angetreten oder Disqualifiziert

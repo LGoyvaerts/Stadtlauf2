@@ -61,6 +61,7 @@ public class Runner {
                 writer.println(p.getRang()+"\t\t"+p.getStartnummer() + "\t\t" + p.getZeit() + "\t" + p.getName());
                 i++;
             }
+            writer.println("\n\n*DNF: Nicht angetreten oder Disqualifiziert");
             writer.close();
         }
 

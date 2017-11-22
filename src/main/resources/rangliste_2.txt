@@ -63,4 +63,7 @@ Rang	SN		Zeit		Name
 58		117		15:34:42	Ender 2
 59		106		15:34:56	Bruppacher
 60		112		15:35:21	Glogg 2
-61		136		DNF			Felzmann 2
+61		136		DNF*		Felzmann 2
+
+
+*DNF: Nicht angetreten oder Disqualifiziert

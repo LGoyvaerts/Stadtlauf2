@@ -91,7 +91,7 @@ public class Kategorie {
 
     public void handleTimes() {
         for (Person p : personen) {
-            if (!p.getZeit().equals("DNF\t\t")) {
+            if (!p.getZeit().equals("DNF*\t")) {
                 char[] repaired = p.getZeit().toCharArray();
                 String newTime = repaired[0] + "" + repaired[1] + ":" + repaired[2] + "" + repaired[3] + ":" + repaired[4] + "" + repaired[5];
                 p.setZeit(newTime);
@@ -102,7 +102,7 @@ public class Kategorie {
     public void handleDNFs() {
         for (Person p : personen) {
             if (p.getZeit().equals("999999")) {
-                p.setZeit("DNF\t\t");
+                p.setZeit("DNF*\t");
             }
         }
     }
