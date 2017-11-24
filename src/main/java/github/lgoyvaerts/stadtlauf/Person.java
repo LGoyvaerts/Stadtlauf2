@@ -5,22 +5,24 @@ public class Person {
     Integer kategorie;
     String name;
     String zeit;
+    String differenz;
     int rang;
 
     public Person() {
-    }
-
-    public Person(Person person) {
-        this.startnummer = person.getStartnummer();
-        this.kategorie = person.getKategorie();
-        this.name = person.getName();
-        this.zeit = person.getZeit();
     }
 
     public Person(Integer startnummer, Integer kategorie, String name) {
         this.startnummer = startnummer;
         this.kategorie = kategorie;
         this.name = name;
+    }
+
+    public String getDifferenz() {
+        return differenz;
+    }
+
+    public void setDifferenz(String differenz) {
+        this.differenz = differenz;
     }
 
     public int getRang() {

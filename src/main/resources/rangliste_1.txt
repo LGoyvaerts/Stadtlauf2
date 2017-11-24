@@ -1,59 +1,59 @@
 Kategorie 1 Rangliste
 
 
-Rang	SN		Zeit		Name
-----------------------------------------
-1		23		14:30:36	Temperli
-2		14		14:31:29	Arnold
-3		15		14:32:14	Fehr
-4		27		14:32:54	Spreng
-5		1		14:32:59	Bruppacher 1
-6		12		14:33:04	Bucher
-7		28		14:33:12	Bosshardt
-8		24		14:33:18	Stoll
-9		26		14:34:38	Arnold
-10		2		14:34:59	Bruppacher 2
-11		5		14:35:48	Haas
-12		6		14:36:41	Vogt
-13		8		14:36:51	Pfammatter
-14		21		14:37:00	Feusi 1
-15		81		14:37:28	Wölfle 1
-16		7		14:38:01	Achermann
-17		69		14:38:21	Engler
-18		4		14:38:36	Lutz 2
-19		13		14:38:39	Amstein
-20		62		14:38:49	Le
-21		29		14:38:52	Merotto
-22		87		14:39:19	Rütschi
-23		51		14:39:22	Zehntner
-24		84		14:39:27	Zehnder
-25		86		14:39:53	Mattli
-26		90		14:40:02	Bernhard
-27		65		14:40:09	Donze
-28		71		14:40:16	Murer
-29		3		14:40:29	Lutz 1
-30		58		14:40:34	Meier
-31		92		14:41:10	Kober
-32		93		14:41:20	Iten 1
-33		64		14:41:22	Stauber
-34		85		14:41:25	Bolz
-35		22		14:42:22	Feusi 2
-36		70		14:42:41	Bamberger
-37		94		14:44:03	Iten 2
-38		63		14:44:07	Liebi
-39		91		14:44:47	Oberholzer
-40		61		14:44:54	Ammann
-41		53		14:44:59	Frei
-42		57		14:45:19	Bagattini
-43		55		14:45:36	Doebeli
-44		52		14:45:42	Bloch
-45		88		14:45:48	Strausak
-46		56		14:46:03	Stauber
-47		54		14:47:44	Lauener
-48		66		14:51:11	Boller
-49		83		14:51:52	Leuch
-50		82		DNF*		Wölfle 2
-51		11		DNF*		Gähwiler
+Rang	SN		Zeit			Differenz			Name
+--------------------------------------------------------------
+1		23		14:30:36		00 min, 00 sec  	Temperli
+2		14		14:31:29		00 min, -53 sec 	Arnold
+3		15		14:32:14		-1 min, -38 sec 	Fehr
+4		27		14:32:54		-2 min, -18 sec 	Spreng
+5		1		14:32:59		-2 min, -23 sec 	Bruppacher 1
+6		12		14:33:04		-2 min, -28 sec 	Bucher
+7		28		14:33:12		-2 min, -36 sec 	Bosshardt
+8		24		14:33:18		-2 min, -42 sec 	Stoll
+9		26		14:34:38		-4 min, -2 sec  	Arnold
+10		2		14:34:59		-4 min, -23 sec 	Bruppacher 2
+11		5		14:35:48		-5 min, -12 sec 	Haas
+12		6		14:36:41		-6 min, -5 sec  	Vogt
+13		8		14:36:51		-6 min, -15 sec 	Pfammatter
+14		21		14:37:00		-6 min, -24 sec 	Feusi 1
+15		81		14:37:28		-6 min, -52 sec 	Wölfle 1
+16		7		14:38:01		-7 min, -25 sec 	Achermann
+17		69		14:38:21		-7 min, -45 sec 	Engler
+18		4		14:38:36		-8 min, 00 sec  	Lutz 2
+19		13		14:38:39		-8 min, -3 sec  	Amstein
+20		62		14:38:49		-8 min, -13 sec 	Le
+21		29		14:38:52		-8 min, -16 sec 	Merotto
+22		87		14:39:19		-8 min, -43 sec 	Rütschi
+23		51		14:39:22		-8 min, -46 sec 	Zehntner
+24		84		14:39:27		-8 min, -51 sec 	Zehnder
+25		86		14:39:53		-9 min, -17 sec 	Mattli
+26		90		14:40:02		-9 min, -26 sec 	Bernhard
+27		65		14:40:09		-9 min, -33 sec 	Donze
+28		71		14:40:16		-9 min, -40 sec 	Murer
+29		3		14:40:29		-9 min, -53 sec 	Lutz 1
+30		58		14:40:34		-9 min, -58 sec 	Meier
+31		92		14:41:10		-10 min, -34 sec	Kober
+32		93		14:41:20		-10 min, -44 sec	Iten 1
+33		64		14:41:22		-10 min, -46 sec	Stauber
+34		85		14:41:25		-10 min, -49 sec	Bolz
+35		22		14:42:22		-11 min, -46 sec	Feusi 2
+36		70		14:42:41		-12 min, -5 sec 	Bamberger
+37		94		14:44:03		-13 min, -27 sec	Iten 2
+38		63		14:44:07		-13 min, -31 sec	Liebi
+39		91		14:44:47		-14 min, -11 sec	Oberholzer
+40		61		14:44:54		-14 min, -18 sec	Ammann
+41		53		14:44:59		-14 min, -23 sec	Frei
+42		57		14:45:19		-14 min, -43 sec	Bagattini
+43		55		14:45:36		-15 min, 00 sec 	Doebeli
+44		52		14:45:42		-15 min, -6 sec 	Bloch
+45		88		14:45:48		-15 min, -12 sec	Strausak
+46		56		14:46:03		-15 min, -27 sec	Stauber
+47		54		14:47:44		-17 min, -8 sec 	Lauener
+48		66		14:51:11		-20 min, -35 sec	Boller
+49		83		14:51:52		-21 min, -16 sec	Leuch
+50		82		DNF*			Did not run ...		Wölfle 2
+51		11		DNF*			Did not run ...		Gähwiler
 
 
 *DNF: Nicht angetreten oder Disqualifiziert

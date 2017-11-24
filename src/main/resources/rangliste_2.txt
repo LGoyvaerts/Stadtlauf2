@@ -1,69 +1,69 @@
 Kategorie 2 Rangliste
 
 
-Rang	SN		Zeit		Name
-----------------------------------------
-1		176		15:15:15	Rebsamen
-2		165		15:16:44	Pongracz
-3		163		15:16:47	Feusi
-4		174		15:17:09	Amschwand 1
-5		171		15:17:32	Senft 1
-6		183		15:18:08	Spreng
-7		177		15:18:14	Baumgartner
-8		146		15:18:24	Bachmann
-9		167		15:19:13	Trottmann 1
-10		162		15:19:15	Huber
-11		132		15:19:35	Neuer
-12		164		15:20:22	Häuselmann
-13		101		15:20:34	Hutter
-14		133		15:20:57	Weber
-15		140		15:21:05	Müller
-16		169		15:21:09	Spillmann 1
-17		137		15:21:14	Hässig 1
-18		134		15:21:19	Bucher
-19		115		15:22:04	Vogt
-20		123		15:22:06	Wietlisbach
-21		103		15:22:26	Vogler
-22		166		15:23:10	Temperli
-23		145		15:23:18	Gisler
-24		118		15:23:24	Achermann
-25		114		15:23:28	Boller
-26		139		15:23:35	Hugentobler
-27		173		15:23:49	Stoll
-28		143		15:23:54	Blaser 1
-29		141		15:24:03	Amstein
-30		131		15:24:19	Gähwiler
-31		116		15:24:22	Ender 1
-32		170		15:24:28	Spillmann 2
-33		119		15:24:32	Hirzel
-34		175		15:24:34	Amschwand 2
-35		178		15:24:37	Haupt
-36		107		15:25:06	Lutz
-37		104		15:25:08	Tobler 1
-38		142		15:25:21	Fehr
-39		168		15:25:27	Trottmann 2
-40		181		15:25:28	Merotto
-41		180		15:26:19	Huber
-42		122		15:26:20	Pfammatter
-43		113		15:26:22	Haas
-44		109		15:26:28	Enz 1
-45		102		15:26:31	Bochsler
-46		161		15:27:21	Stehli
-47		138		15:27:36	Hässig 2
-48		135		15:27:38	Felzmann 1
-49		111		15:27:51	Glogg 1
-50		121		15:27:53	Tiefenauer
-51		144		15:29:17	Blaser 2
-52		105		15:29:35	Tobler 2
-53		172		15:30:15	Senft 2
-54		179		15:30:30	Gallmann
-55		120		15:33:13	Hirzel 2
-56		182		15:33:23	Bosshardt
-57		110		15:33:31	Enz 2
-58		117		15:34:42	Ender 2
-59		106		15:34:56	Bruppacher
-60		112		15:35:21	Glogg 2
-61		136		DNF*		Felzmann 2
+Rang	SN		Zeit			Differenz			Name
+--------------------------------------------------------------
+1		176		15:15:15		00 min, 00 sec  	Rebsamen
+2		165		15:16:44		-1 min, -29 sec 	Pongracz
+3		163		15:16:47		-1 min, -32 sec 	Feusi
+4		174		15:17:09		-1 min, -54 sec 	Amschwand 1
+5		171		15:17:32		-2 min, -17 sec 	Senft 1
+6		183		15:18:08		-2 min, -53 sec 	Spreng
+7		177		15:18:14		-2 min, -59 sec 	Baumgartner
+8		146		15:18:24		-3 min, -9 sec  	Bachmann
+9		167		15:19:13		-3 min, -58 sec 	Trottmann 1
+10		162		15:19:15		-4 min, 00 sec  	Huber
+11		132		15:19:35		-4 min, -20 sec 	Neuer
+12		164		15:20:22		-5 min, -7 sec  	Häuselmann
+13		101		15:20:34		-5 min, -19 sec 	Hutter
+14		133		15:20:57		-5 min, -42 sec 	Weber
+15		140		15:21:05		-5 min, -50 sec 	Müller
+16		169		15:21:09		-5 min, -54 sec 	Spillmann 1
+17		137		15:21:14		-5 min, -59 sec 	Hässig 1
+18		134		15:21:19		-6 min, -4 sec  	Bucher
+19		115		15:22:04		-6 min, -49 sec 	Vogt
+20		123		15:22:06		-6 min, -51 sec 	Wietlisbach
+21		103		15:22:26		-7 min, -11 sec 	Vogler
+22		166		15:23:10		-7 min, -55 sec 	Temperli
+23		145		15:23:18		-8 min, -3 sec  	Gisler
+24		118		15:23:24		-8 min, -9 sec  	Achermann
+25		114		15:23:28		-8 min, -13 sec 	Boller
+26		139		15:23:35		-8 min, -20 sec 	Hugentobler
+27		173		15:23:49		-8 min, -34 sec 	Stoll
+28		143		15:23:54		-8 min, -39 sec 	Blaser 1
+29		141		15:24:03		-8 min, -48 sec 	Amstein
+30		131		15:24:19		-9 min, -4 sec  	Gähwiler
+31		116		15:24:22		-9 min, -7 sec  	Ender 1
+32		170		15:24:28		-9 min, -13 sec 	Spillmann 2
+33		119		15:24:32		-9 min, -17 sec 	Hirzel
+34		175		15:24:34		-9 min, -19 sec 	Amschwand 2
+35		178		15:24:37		-9 min, -22 sec 	Haupt
+36		107		15:25:06		-9 min, -51 sec 	Lutz
+37		104		15:25:08		-9 min, -53 sec 	Tobler 1
+38		142		15:25:21		-10 min, -6 sec 	Fehr
+39		168		15:25:27		-10 min, -12 sec	Trottmann 2
+40		181		15:25:28		-10 min, -13 sec	Merotto
+41		180		15:26:19		-11 min, -4 sec 	Huber
+42		122		15:26:20		-11 min, -5 sec 	Pfammatter
+43		113		15:26:22		-11 min, -7 sec 	Haas
+44		109		15:26:28		-11 min, -13 sec	Enz 1
+45		102		15:26:31		-11 min, -16 sec	Bochsler
+46		161		15:27:21		-12 min, -6 sec 	Stehli
+47		138		15:27:36		-12 min, -21 sec	Hässig 2
+48		135		15:27:38		-12 min, -23 sec	Felzmann 1
+49		111		15:27:51		-12 min, -36 sec	Glogg 1
+50		121		15:27:53		-12 min, -38 sec	Tiefenauer
+51		144		15:29:17		-14 min, -2 sec 	Blaser 2
+52		105		15:29:35		-14 min, -20 sec	Tobler 2
+53		172		15:30:15		-15 min, 00 sec 	Senft 2
+54		179		15:30:30		-15 min, -15 sec	Gallmann
+55		120		15:33:13		-17 min, -58 sec	Hirzel 2
+56		182		15:33:23		-18 min, -8 sec 	Bosshardt
+57		110		15:33:31		-18 min, -16 sec	Enz 2
+58		117		15:34:42		-19 min, -27 sec	Ender 2
+59		106		15:34:56		-19 min, -41 sec	Bruppacher
+60		112		15:35:21		-20 min, -6 sec 	Glogg 2
+61		136		DNF*			Did not run ...		Felzmann 2
 
 
 *DNF: Nicht angetreten oder Disqualifiziert

@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Runner {
 
@@ -49,23 +50,43 @@ public class Runner {
             k.handleDNFs();
             k.handleTimes();
             k.handleRanks();
+            k.handleDifferences();
         }
 
         for (Kategorie k : kategories) {
             PrintWriter writer = new PrintWriter("src/main/resources/rangliste_" + k.getNummer() + ".txt", "UTF-8");
             writer.println("Kategorie " + k.getNummer() + " Rangliste\n");
-            writer.println("\nRang\tSN\t\tZeit\t\tName");
-            writer.println("----------------------------------------");
+            writer.println("\nRang\tSN\t\tZeit\t\t\tDifferenz\t\t\tName");
+            writer.println("--------------------------------------------------------------");
             int i = 1;
             for (Person p : k.getPersonen()) {
-                writer.println(p.getRang()+"\t\t"+p.getStartnummer() + "\t\t" + p.getZeit() + "\t" + p.getName());
+                writer.println(p.getRang() + "\t\t" + p.getStartnummer() + "\t\t" + p.getZeit() + "\t\t" + p.getDifferenz() + "\t" + p.getName());
                 i++;
             }
             writer.println("\n\n*DNF: Nicht angetreten oder Disqualifiziert");
             writer.close();
         }
 
+        search(kategories);
+    }
 
+    public static void search(Kategorie[] kategories){
+        Scanner in = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Person suchen: ");
+            String input = in.nextLine().toLowerCase();
+            if (input.equals("0")) {
+                System.exit(0);
+            }
+            for (Kategorie k : kategories) {
+                for (Person p : k.getPersonen()) {
+                    if (p.getName().equalsIgnoreCase(input)) {
+                        System.out.println("Kateforie: " + k.getNummer() + "\t\tRang: " + p.getRang() + "\t\tSN: " + p.getStartnummer() + "\t\tZeit: " + p.getZeit() + "\t\tDifferenz: " + p.getDifferenz() + "\t\tName: " + p.getName());
+                    }
+                }
+            }
+        }
     }
 
     private static void setKategoriesSize(List<Person> personen, Kategorie kategorie1Personen, Kategorie kategorie2Personen, Kategorie kategorie3Personen) {

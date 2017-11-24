@@ -2,7 +2,10 @@ package github.lgoyvaerts.stadtlauf;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 public class Kategorie {
     private static final String MESSRESULTATE = "src/main/resources/messresultate.txt";
@@ -99,17 +102,39 @@ public class Kategorie {
         }
     }
 
-    public void handleDNFs() {
+    public void handleDifferences() throws Exception{
         for (Person p : personen) {
-            if (p.getZeit().equals("999999")) {
-                p.setZeit("DNF*\t");
+            if (!p.getZeit().equals("DNF*\t")) {
+                SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
+                Date date1 = format.parse(p.getZeit());
+                Date date2 = format.parse(personen[0].getZeit());
+                Long difference = date2.getTime() - date1.getTime();
+
+                String result = String.format("%02d min, %02d sec",
+                        TimeUnit.MILLISECONDS.toMinutes(difference),
+                        TimeUnit.MILLISECONDS.toSeconds(difference) -
+                                TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(difference))
+                );
+
+
+                String resultFormatted = String.format("%-16s", result);
+                p.setDifferenz(resultFormatted);
             }
         }
     }
 
-    public void handleRanks(){
+    public void handleDNFs() {
+        for (Person p : personen) {
+            if (p.getZeit().equals("999999")) {
+                p.setZeit("DNF*\t");
+                p.setDifferenz("Did not run ...\t");
+            }
+        }
+    }
+
+    public void handleRanks() {
         int i = 1;
-        for (Person p : personen){
+        for (Person p : personen) {
             p.setRang(i);
             i++;
         }
