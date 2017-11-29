@@ -46,7 +46,7 @@ public class Runner {
 
         for (Kategorie k : kategories) {
             k.setPersonsTime();
-            k.bubbleSort();
+            k.bubbleSortByTimes();
             k.handleDNFs();
             k.handleTimes();
             k.handleRanks();
@@ -68,25 +68,7 @@ public class Runner {
         }
 
         search(kategories);
-    }
 
-    public static void search(Kategorie[] kategories){
-        Scanner in = new Scanner(System.in);
-
-        while (true) {
-            System.out.print("Person suchen: ");
-            String input = in.nextLine().toLowerCase();
-            if (input.equals("0")) {
-                System.exit(0);
-            }
-            for (Kategorie k : kategories) {
-                for (Person p : k.getPersonen()) {
-                    if (p.getName().equalsIgnoreCase(input)) {
-                        System.out.println("Kateforie: " + k.getNummer() + "\t\tRang: " + p.getRang() + "\t\tSN: " + p.getStartnummer() + "\t\tZeit: " + p.getZeit() + "\t\tDifferenz: " + p.getDifferenz() + "\t\tName: " + p.getName());
-                    }
-                }
-            }
-        }
     }
 
     private static void setKategoriesSize(List<Person> personen, Kategorie kategorie1Personen, Kategorie kategorie2Personen, Kategorie kategorie3Personen) {
@@ -106,6 +88,99 @@ public class Runner {
         kategorie1Personen.personen = new Person[temp1];
         kategorie2Personen.personen = new Person[temp2];
         kategorie3Personen.personen = new Person[temp3];
+    }
+
+
+    public static void search(Kategorie[] kategories) throws Exception {
+
+        while (true) {
+            Scanner in = new Scanner(System.in);
+            System.out.print("\nAlle(1) oder Binär(2) suchen oder Bestand(3 - benötigt bestehende Ranglisten): ");
+            String selection = in.nextLine();
+            if (selection.equals("0") || selection.equals("")) {
+                return;
+            }
+
+            if (selection.equals("1")) {
+
+                System.out.print("Person(-en) suchen: ");
+                String input = in.nextLine().toLowerCase();
+                int i = 0;
+                for (Kategorie k : kategories) {
+                    for (Person p : k.getPersonen()) {
+                        if (p.getName().toLowerCase().contains(input.toLowerCase())) {
+                            System.out.println(p.getRang() + "\t\t" + p.getStartnummer() + "\t\t" + p.getZeit() + "\t\t" + p.getDifferenz() + "\t" + p.getName());
+                            i++;
+                        }
+                    }
+                }
+                if (i==0){
+                    System.out.println("Keine Person gefunden.");
+                }
+
+            }
+
+            if (selection.equals("2")) {
+                binarySearch(kategories);
+            }
+
+            if (selection.equals("3")) {
+                Searcher.search();
+            }
+
+        }
+    }
+
+    private static void binarySearch(Kategorie[] kategories) throws Exception {
+        Scanner in = new Scanner(System.in);
+        int amountOfPersons = kategories[0].getPersonen().length + kategories[1].getPersonen().length + kategories[2].getPersonen().length;
+
+        Person[] persons = new Person[amountOfPersons];
+
+        int i = 0;
+        for (Kategorie k : kategories) {
+            for (Person p : k.getPersonen()) {
+                persons[i] = p;
+                i++;
+            }
+        }
+
+        Kategorie k = new Kategorie();
+        k.setPersonen(persons);
+
+        k.bubbleSortByNames();
+
+        System.out.print("Person suchen: ");
+        String input = in.nextLine();
+
+        if (input.equals("0") || input.equals("")) {
+            System.exit(0);
+        }
+
+        Person p = null;
+        int low = 0;
+        int high = persons.length - 1;
+        int mid;
+
+        while (low <= high) {
+            mid = (low + high) / 2;
+
+            if (persons[mid].getName().toLowerCase().compareTo(input.toLowerCase()) < 0) {
+                low = mid + 1;
+            } else if (persons[mid].getName().toLowerCase().compareTo(input.toLowerCase()) > 0) {
+                high = mid - 1;
+            } else {
+                p = persons[mid];
+                break;
+            }
+        }
+
+        try {
+            System.out.println(p.getRang() + "\t\t" + p.getStartnummer() + "\t\t" + p.getZeit() + "\t\t" + p.getDifferenz() + "\t" + p.getName());
+        } catch (NullPointerException e) {
+            System.out.println("Keine Person gefunden.");
+        }
+
     }
 
     private static Kategorie[] setKategoriesPersons(List<Person> persons, Kategorie[] kategories) {

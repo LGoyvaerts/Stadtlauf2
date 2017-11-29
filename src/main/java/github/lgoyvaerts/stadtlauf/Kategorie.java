@@ -67,7 +67,7 @@ public class Kategorie {
         }
     }
 
-    public void bubbleSort() throws Exception {
+    public void bubbleSortByTimes() throws Exception {
 
         for (Person p : personen) {
             if (p.getZeit() != null) {
@@ -88,6 +88,19 @@ public class Kategorie {
                     personen[j] = temp;
                 }
 
+            }
+        }
+    }
+
+    public void bubbleSortByNames() throws Exception{
+        Person temp;
+        for (int a = 0; a < personen.length - 1; a++) {
+            for (int j = 0; j < personen.length - 1; j++) {
+                if (personen[j].getName().compareTo(personen[j + 1].getName()) > 0) {
+                    temp = personen[j];
+                    personen[j] = personen[j + 1];
+                    personen[j + 1] = temp;
+                }
             }
         }
     }
